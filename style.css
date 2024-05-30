@@ -1,0 +1,68 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #71b7d8, #5c8dc0);
+    width: 100%;
+    height: 100%;
+}
+.h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: #01301d;
+    font-size: 50px;
+    margin: 10px;
+}
+.h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: #0a451c;
+    font-size: 30px;
+    margin: 10px;
+}
+.calculatrice{
+    width: 250px;
+    height: 400px;
+    padding: 10px 20px;
+    border: 5px solid #03360e;
+    border-radius: 4px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background: linear-gradient(to bottom, #a1db92, #e4e481);
+}
+.screen{
+    background: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 5px solid #03360e;
+    border-radius: 4px;
+    color: #060665;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+}
+.bn{
+    outline: none;
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+    padding: 9px;
+    background: linear-gradient(to bottom, #599f48, #62c679);
+    border: 5px solid #03360e;
+    border-radius: 4px;
+    color: #044d14;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.bn:hover{
+    transform: scale(1.08);
+    transition: .5s;
+}
